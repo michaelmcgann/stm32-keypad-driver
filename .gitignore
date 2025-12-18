@@ -1,0 +1,19 @@
+# Build output
+Debug/
+Release/
+build/
+*.o
+*.a
+*.elf
+*.map
+*.lst
+*.d
+*.su
+
+# IDE / workspace noise
+.metadata/
+*.launch
+
+# OS junk
+.DS_Store
+Thumbs.db
