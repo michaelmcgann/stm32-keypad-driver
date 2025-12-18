@@ -10,4 +10,4 @@ Pins PE12 to PE15 are used for the rows and set to output.
 
 ## How it works:
 Using a 1ms SysTick interrupt the program scans one row per tick, taking 4ms for the full scan. 
-To ensure a stable press or release, the history of the key state is saved and if consistant for 5 samples, the key press will be sent to the queue on the basis that: 1. queue is not full 2. key not being held down (software prevents this - one press -> one event).
+To ensure a stable press or release, the history of the key state is saved and if consistent for 5 samples, the key press will be sent to the queue on the basis that: 1. queue is not full 2. key not being held down (software prevents this - one press -> one event).
